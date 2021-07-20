@@ -1,0 +1,89 @@
+ul{
+    display: inline;
+    position: fixed;
+    background-color: hotpink;
+}
+ul li{
+    display: inline ;
+margin: 50px 50px 50px 130px;
+}
+#square{
+    background-color: indigo;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    position: absolute;
+    margin-top: 100px;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: square;    
+}
+@keyframes square{
+    0%{left:0px;}
+    100%{ left:200px;
+    animation-timing-function: ease-in-out;       
+    }
+}
+#circle{
+    background-color: lawngreen;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    border-radius: 50%;
+    margin-top: 300px;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes circle{
+    0%{left:0px;}
+    100%{ left:200px;
+    animation-timing-function:ease-out;
+    }
+}
+#arrowright{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 50px solid transparent;
+    border-right: 100px solid blue ;
+    border-bottom: 50px solid transparent ;
+margin-top: 500px;
+animation-name: arrowright;
+animation-duration: 5s;
+animation-iteration-count: infinite;}
+
+@keyframes arrowright{
+    0%{left:0px;}
+    100%{ left:200px;
+    animation-timing-function:linear
+    }
+}
+#arrowleft{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 50px solid transparent;
+    border-left: 100px solid red ;
+    border-bottom: 50px solid transparent ;
+margin-top: 700px;
+animation-name: arrowleft;
+animation-duration: 5s; 
+animation-iteration-count: infinite; 
+}
+@keyframes arrowleft{
+    0%{left:0px;}
+    100%{ left:200px;
+    animation-timing-function:ease;
+    }
+}
+@media only screen and (max-width:1000px) {
+    body{
+        background-color:blue;
+    }
+}
+@media only screen and (min-width:1000px) {
+    body{
+        background-color:red;
+    }
+} 

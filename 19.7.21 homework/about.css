@@ -1,0 +1,56 @@
+ul{
+    display:block;
+    display: inline-block;
+    background-color:white;
+    margin-top: 0px;
+    position:fixed;
+}
+ul li{
+    display: block;
+    display: inline-block;
+    margin: 4.3px;
+    position: relative;
+    font-size: 10px;
+    
+}
+#logo{
+    margin-right: 423px;  
+}
+h1{
+    position:absolute;
+    bottom:250px;
+    right:750px;
+    font-size: 40px;
+    color: white;
+    
+}
+h6{
+    position:absolute;
+    bottom:250px;
+    right:990px;
+    color: white;
+    bottom: 200px;
+}
+h5{
+    position:absolute;
+    bottom:130px;
+    right:1080px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+}
+footer ul{
+    display:block;
+    display: inline-block;
+    background-color:lightgray;
+    margin-top: -30px;
+    position:fixed;
+}
+footer ul li{
+    display: block;
+    display: inline-block;
+    margin: 4.3px;
+    position: relative;
+    font-size: 10px;
+}    
+
