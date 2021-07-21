@@ -1,0 +1,16 @@
+ main{
+    display: grid;
+    width: 300px;
+    height: 300px;
+    grid-template-columns: repeat(8, 35.8px);
+    grid-template-rows: repeat(8, 35.8px);
+    column-gap: 2px;
+    row-gap: 2px;
+    border: orange solid 2px;
+}
+div{
+    background-color: black;
+}
+div:nth-child(even){
+    background-color: gray;
+}

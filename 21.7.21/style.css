@@ -1,0 +1,37 @@
+.images{
+    display: flex;
+    flex-wrap:wrap;   
+}
+
+@media screen and (min-width: 1440px){
+    .images{
+        max-width:24%;
+        height: auto;
+        display: flex;
+
+    }   
+}
+@media screen and (min-width:1024px) {
+   .images{
+       max-width: 30%;
+       height: auto;
+       display: flex;
+   } 
+    
+}
+@media screen and (min-width:768px) {
+    .images{
+        max-width: 50%;
+        height: auto;
+        display: flex;
+    }
+    
+} 
+@media screen and (min-width:425px) {
+    .images{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+    }
+    
+}   
