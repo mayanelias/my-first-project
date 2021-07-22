@@ -42,9 +42,9 @@ h5{
 footer ul{
     display:block;
     display: inline-block;
+    background-color:lightgray;
     margin-top: -30px;
     position:fixed;
-    background-color: white;
 }
 footer ul li{
     display: block;
@@ -52,5 +52,5 @@ footer ul li{
     margin: 4.3px;
     position: relative;
     font-size: 10px;
-background-color: white;}    
+}    
 
