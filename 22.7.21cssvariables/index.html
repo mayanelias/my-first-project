@@ -4,24 +4,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index.html</title>
+    <title>index.html</title> <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
         <nav>
-
-        </nav>
+            <nav  class="navbar navbar-expand-lg navbar-light bg-light"> 
+                <div class="container-fluid">
+                   <a class="navbar-brand"> <img src="My logo.png" id="myLogo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a  class="nav-link active" aria-current="page" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Offers</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Locations
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="tel-aviv.html">Tel-aviv hotel</a></li>
+                          <li><a class="dropdown-item" href="beer-sheva.html">Beer-sheva hotel</a></li>
+                          <li><a class="dropdown-item" href="eilat.html">Eilat hotel</a></li>
+                          <li><a class="dropdown-item" href="haifa.html">Haifa hotel</a></li>
+                          <li><a class="dropdown-item" href="jerusalem.html">Jerusalem hotel</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Choose for me</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active credit-card"  href="#" tabindex="-1" aria-disabled="true">Credit-card</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-dark" type="submit">Find a Hotel</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
     </header>
     <main>
+        <section class="join">
+            <div><h3><img src="My logo.png">Join Elias hotels and get 5,000 Bonus Points on your next two stays.<br><a href="Join for Free">join for free</a></h3></div>
+        </section>
+        <section class="hotels">
+            <article>
+         <img src="tel-aviv hotel.jpg">
+            <div><h3>Tel-aviv hotel<br> Tel-Aviv<br> 03-1234567</h3></div>
+           <a href="https://api.whatsapp.com/send?phone=15551234567"target="blank" >Send Message on whatsapp <i class="fa fa-whatsapp" style="font-size:36px;color: greenyellow;"></i></a>
+            </article>
+            <article>
+        <img src="beer sheva hotel.jpg">
+            <div><h3>Beer-sheva hotel<br>Beer-sheva<br>08-9876543</h3></div>
+            <a href="https://api.whatsapp.com/send?phone=15551234567" target="blank">Send Message on whatsapp  <i class="fa fa-whatsapp" style="font-size:36px;color: greenyellow;"></i></a>
+        </article>
+        <article>
+        <img src="eilat hotel.jpg">
+            <div><h3>Eilat hotel<br>Eilat<br>08-8765432</h3></div>
+            <a href="https://api.whatsapp.com/send?phone=15551234567"target="blank" >Send Message on whatsapp  <i class="fa fa-whatsapp" style="font-size:36px;color: greenyellow;"></i></a>
+        </article>
+        <article>
+        <img src="haifa hotel.jpg">
+        <div><h3>Haifa hotel<br>Haifa<br>04-9876543</h3></div>
+        <a href="https://api.whatsapp.com/send?phone=15551234567"target="blank" >Send Message on whatsapp  <i class="fa fa-whatsapp" style="font-size:36px;color: greenyellow;"></i></a>
+       </article>
+       <article>
+        <img src="jersualem hotel.jpg">
+        <div><h3>Jerusalem hotel<br>jersualem<br>02-4567890</h3></div>
+        <a href="https://api.whatsapp.com/send?phone=15551234567"target="blank" >Send Message on whatsapp <i class="fa fa-whatsapp" style="font-size:36px;color: greenyellow;"></i></a>
+            </article>           
+        </section>
+        <section class="events">
+            <div><h3><img src= "My logo.png">Activities & Entertainment</h3></div>
+        </section>
+        <section class="activities"> 
+            <article>
+                <img src="pools1.jpg">
+                <div><h3>Pools/Aqua park/Beach<br>12/8/21<br>Elias hotels<br>300 participants</h3></div>
+                </article>
+                <article>
+                <img src="game room.jpg">
+                 <div><h3>Game room<br>15/08/21<br>Elias hotel<br>50 participants </h3></div>
+                </article>
+                <article>
+                <img src="sport.jpg">
+                <div><h3>Sport/fitness<br>24/08/21<br>Elias hotel<br>200 participants</h3></div>
+               </article>
+               <article>
+                <img src="min club.jpg">
+                <div><h3>Animation/Mini club<br>30/08/21<br>Elias hotel<br>100 participants</h3></div>
+                    </article>  
+        </section>
         <section>
-            <div>ghgjghjgj</div>
-            <div>hhkjhjkhkj</div>
-            <div>hhhhhhkhk</div>
-            <div>jiiihoihih</div>
-            <div>ihkihijk</div>
+            <h3 class="book">BOOK ONLINE NOW</h3>
+<div class="form">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name"><br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="last name"><br>
+    <label for="check-in">Check-In</label>
+    <input type="date" id="check-in" name="check-in" placeholder="check-in"><br>
+    <label for="check-out">Check-out</label>
+    <input type="date" id="check-out" name="check-out" placeholder="check-out"><br>
+    <label for="Locations">Locations</label>
+    <select id="Locations" name="Locations"><br>
+      <option value="tel-aviv hotel">Tel-aviv hotel</option>
+      <option value="beer-sheva hotel">Beer-sheva hotel</option>
+      <option value="eilat hotel">Eilat hotel</option>
+      <option value="haifa hotel">Haifa hotel</option>
+      <option value="jersualem hotel">Jerusalem hotel</option>
+    </select><br><br>
+    <input type="submit"value="submit"><br>
+  </form>
+</div>
         </section>
     </main>
+    <footer>
+      <section class="contact">
+      <div><h1>contact us<img src="My logo.png">
+        <a href="#" class="fa fa-facebook"></a>
+     <a href="#" class="fa fa-twitter"></a>
+     <a href="#" class="fa fa-google"></a>
+     <a href="#" class="fa fa-linkedin"></a>
+     <a href="#" class="fa fa-youtube"></a>
+     <a href="#" class="fa fa-instagram"></a></h1></div> 
+      </section>
+    </footer>
 
     
+   
+    
+
+ <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
 </body>
 </html>

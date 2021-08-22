@@ -1,0 +1,263 @@
+nav{
+    height: 40%;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+#myLogo{
+    height:100px ;
+    width:100px ;
+}
+#beer{
+    width: 509.33px;
+    height: 406px;
+    margin-left:370px ;
+    margin-bottom:20px;
+    margin-top:150px;
+}
+.joinbeer div{
+    padding:30px;
+    background-color: lightblue;
+    font-family: fantasy;
+    color: snow;    
+
+}
+.joinbeer div h3{
+    text-align: center;
+}
+#link{
+    text-decoration: none;
+    margin-left: 530px;
+}
+#link:hover{
+    color: limegreen;
+}
+   
+.joinbeer div a{
+    text-decoration: none;
+    color:snow;
+    text-align:left;
+}
+.joinbeer div a:hover{
+color: #000;
+}
+h2{
+    font-family: fantasy;
+    color: lightskyblue;
+    text-align: center;
+}
+p{
+    font-family:sans-serif;
+    color: lightskyblue;
+    text-align: center; 
+}
+.team div h1{
+    background-color: lightblue;
+    font-family: fantasy;
+    color: snow;
+    text-align: center;
+    padding: 30px;
+    margin:10px   
+}
+.images img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.images{
+    color:lightblue;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-evenly;
+    text-align: center;
+    
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 10px 20px;
+    margin: 30px 0;
+    display: inline-block;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=sumbit] {
+    width: 50%;
+    background-color:lightblue;
+    color: white;
+    padding: 10px 20px;
+    margin: 30px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=sumbit]:hover {
+    background-color: #45a049;
+  }
+  
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .book{
+    padding:200px;
+    margin-top: 100px;
+    background-color: lightblue;
+    font-family: fantasy;
+    color: snow;
+    text-align: center;
+  }
+  #eilat{
+    width: 509.33px;
+    height: 406px;
+    margin-left:370px ;
+    margin-bottom:20px;
+    margin-top:150px;  
+  }
+  #haifa{
+    width: 509.33px;
+    height: 406px;
+    margin-left:370px ;
+    margin-bottom:20px;
+    margin-top:150px;
+  }
+  #Jerusalem{
+    width: 509.33px;
+    height: 406px;
+    margin-left:370px ;
+    margin-bottom:20px;
+    margin-top:150px;  
+  }
+#telaviv{
+    width: 509.33px;
+    height: 406px;
+    margin-left:370px ;
+    margin-bottom:20px;
+    margin-top:150px;   
+}
+@media only screen and (max-width:1024px){
+    
+.hotels img{
+        width:20% ;
+        height:200px;
+    }
+    #beer{
+        width: 40%;
+        justify-content: flex-start;
+        margin-left: 290px;
+    }
+    .joinbeer div{
+        width: 100%;
+    }
+    .images{
+        width: 100%;
+    }
+    .nav{
+        width: 40%;
+    }
+}
+@media only screen and  (max-width:768px) {
+      
+.hotels img{
+    width:20% ;
+    height:200px;
+}
+#beer{
+    width: 30%;
+    justify-content:center;
+    margin-left: 260px;
+    
+}
+.joinbeer div{
+    width: 100%;
+}
+.images{
+    width: 100%;
+}
+.nav{
+    width: 40%;
+
+}
+.joinbeer h2{
+    width: 60%;
+}
+
+}
+   
+
+@media only screen and (max-width:425px) {
+    .hotels img{
+        width:20% ;
+        height:200px;
+    }
+    #beer{
+        width: 60%;
+        justify-content:center;
+        margin-left: 600px;
+        
+    }
+    .joinbeer div{
+        width: 100%;
+    }
+    .images{
+        width: 80%;
+    }
+    .nav{
+        width: 100%;
+    
+    }
+    .joinbeer h2{
+        width: 100%;
+    }
+    #link{
+        width:20%;
+    }
+}
+footer div h1{
+    background-color: lightblue;
+    font-family: fantasy;
+    color: snow;
+    width: 100%;
+} 
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .contact{
+      text-align: center;
+  } 
+  .contact a{
+      text-decoration: none;
+  }
+    
+
